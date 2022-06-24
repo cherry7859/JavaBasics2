@@ -1,0 +1,54 @@
+There are three types of variables in Java: Local, Instance, Static
+Local Variables:
+    The variables are created inside a block of code
+    Method level variables
+        ex: Method, loop switch statement, if else condition, constructor
+    Advantages:
+        We should always prefer local variables to instance or static variables
+        Live for shortest period of time inside your RAM (saves memory)
+    Disadvantages:
+        They can't be access outside the block of code in which they are created
+EXAMPLE:
+    Class Countries{
+        void USA() {
+           String person = "Cherylle";
+           }
+         void Russia {
+            System.out.println(person) // we will get an error b/c person is only accessible in the USA method
+
+Instance Variables:
+    They are created inside the class, but outside of a block of code
+    Object/Instance level variables
+    Use when want to share variable across a class. ex: dog1.color, dog2.color, dog3.color
+    Advantages:
+        Accessible everywhere in a class in all the blocks of code that are inside the class, but not in a static method
+    Disadvantages:
+        They keep on occupying the memory for longer periods of time
+        Separate memory location created for each variable
+
+Static Variables:
+    When we have an instance variable with a static keyword
+    Class level variables
+    Use when you know all of the objects of a class will remain the same. ex: noOfDogLegs = 4;
+    Use when want to share a variable across different objects/instances. ex: NoOfEmployees = 500;
+    Advantages:
+        They have highest scope available, even outside of an object
+        B/C class level variables, does not matter how many objects we create from that class only one variable is created
+    Disadvantages:
+        Occupy the memory for longest period of time
+        Can hold only a single value for all the objects
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

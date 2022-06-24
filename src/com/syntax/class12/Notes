@@ -1,0 +1,41 @@
+RECAP:
+OOP(Object Oriented Programming) - A way of writing code
+    - Classes and objects are the basic parts of this method
+    - Fields and Methods can be defined anywhere in the class
+Why should we learn OOP?
+    - Simplifies the development of programs
+    - Makes it easy to manage and maintain large programs
+    - OOP is built around objects, classes and many other things which can help us
+        translate real life objects into computers
+How to write programs using OOP
+    1) Create classes. Inside the classes, define properties/fields/attributes to show what object looks like, in real life
+    2) Create methods/behaviors/functions to define how that thing works, in real life
+Note:
+    - OOP is also supported in many other programming languages like C#, PHP, Python, Javascript
+    - Other than OOP, we also have different paradigm or ways of writing code:
+        - Functional Programming & Procedural Programming
+    - In java, its convention to call them FIELDS and METHODS
+How do we create a class and its object:
+    class Human{
+    String name; //attributes, properties, fields
+    int age;
+    double weight;
+    char gender;
+
+    //methods, functions, behaviors
+    void walk(){
+    System.out.println("I can walk");
+    }
+
+    public static void main(String [] args){
+
+    Human sameer = new Human();
+    sameer.name = "Sameer";
+    sameer.age = 20;
+    sameer.weight = 130;
+    sameer.gender = 'M';
+    sameer.walk();
+    }
+
+
+

@@ -1,0 +1,33 @@
+Constructor:
+    A block of code that is used to construct objects
+Why we should use Constructors:
+    Help us initialize objects in cleaner and more readable way
+    They are better than methods b/c they are called automatically when we create an object
+    Most of the time, fields are private. And b/c of this, we can't access them outside of the class
+        in which they are declared and can't initialize them
+How to use Constructor:
+    We create them by writing a block of code that has same name as class name
+    When we create the object of that class, the constructor is called automatically
+Rules:
+    1)Don't have return types, not even void
+    2)Should have same name as class name
+    3)Can have access modifiers, like private public and protected
+    4)Can't have non-access modifiers like static final synchronized
+    5)Default constructor is provided by java if we don't write one
+    6)When we create the object of a class, then a constructor is called.
+        For example if the the class name is Dog: Dog dog1 = new Dog();
+    7) We can create multiple constructors(w/different # of parameters)
+        to give other user flexibility to use call chosen variables
+    8)We can call the constructor by using this keywords with parenthesis.
+    this() we can pass parameters and java will decide based on these parameters which constructor to call
+    "this" keyword:
+        Whenever we have a local and instance variable with the same name, this keyword can help sus resolve the conflict
+    class Human{
+    String name = "sleeping Zombi";
+
+    void printName(){
+    String name = "wake up Zombi";
+
+    System.out.println(this.name);
+    }
+    }
