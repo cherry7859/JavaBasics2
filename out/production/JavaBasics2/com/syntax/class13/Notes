@@ -7,3 +7,15 @@ str ==> variable name/object instance
 = ==> assignment operator
 new ==> used to create objects
 String(); ==> Constructor; Like a method, contains some java statements which are executed when object of this class is created
+
+String Vs. StringBuilder
+
+String is immutable, once created cannot be modified
+   - Slow and consumes more memory when you concatenate many Strings b/c every time creates a new instance
+   - Use when we need to save memory, don't care about time
+
+StringBuilder is mutable, can be modified
+    - Consumes less memory when concat Strings
+    - This class in java is same as String class, except can be modified
+    - Use when there is a necessity to make a lot of modifications to String
+    - Use when we want the fastest variable declaration, but not about memory used
