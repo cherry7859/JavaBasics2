@@ -1,0 +1,9 @@
+String Class:
+ - Is used to store and manipulate character based data like:
+    - numbers, alphabets, and special characters
+Breakdown: String str = new String("Hold your horses for IntelliJ");
+String ==> Datatype/Class
+str ==> variable name/object instance
+= ==> assignment operator
+new ==> used to create objects
+String(); ==> Constructor; Like a method, contains some java statements which are executed when object of this class is created

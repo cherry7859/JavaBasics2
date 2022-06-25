@@ -49,9 +49,10 @@ public class StringDemo1 {
         System.out.println(name2.equalsIgnoreCase(name3)); // boolean; true
 
         String str2 = "I am always confused";
+        System.out.println(str2.charAt(4)); // " " : Gives 4th index of String, which is a space
         System.out.println(str2.indexOf("am")); // 2: Gives index of first letter of word/first occurrence
         System.out.println(str2.indexOf("always")); // 5
-        System.out.println(str2.indexOf('a')); // 2
+        System.out.println(str2.indexOf('a', 3)); // 5: Starts search at index 3
         System.out.println(str2.indexOf(' ')); // 1
         System.out.println(str2.indexOf('z')); // -1, because not present inside String
 

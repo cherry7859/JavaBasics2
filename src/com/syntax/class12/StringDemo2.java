@@ -8,6 +8,8 @@ public class StringDemo2 {
         System.out.println(str5.replace("g", "G"));
         System.out.println(str5.replaceFirst("g", "G")); //Replaces first occurrence of "g" with "G"
 
+        //Use ASCII table to see ranges
+
         String str = "asoijfoij98273974SDSDFGSD)#*@)*$2";
 
         System.out.println(str.replaceAll("[0-9]", "#")); //sfkafdb#####t####KSNDKASD!@#$((%^^
