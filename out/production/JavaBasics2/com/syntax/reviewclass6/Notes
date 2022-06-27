@@ -1,0 +1,11 @@
+Methods in Java - Used to describe behaviors of Objects
+
+Inside method we put logic to achieve particular return
+
+MUST PART OF A METHOD:
+returnType name () {
+    logic;
+}
+
+Methods can have return type or void
+Methods can have parameters or not
