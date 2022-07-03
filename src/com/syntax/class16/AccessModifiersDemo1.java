@@ -1,7 +1,7 @@
 package com.syntax.class16;
 
 public class AccessModifiersDemo1 {
-    private String password = "pass123"; // b/c Private variable cannot be accessed outside the class
+    private String password = "pass123"; // secures data b/c Private variable cannot be accessed outside the class
     int SSN = 123456; // default access - can be accessed in any class inside the package
    public String name = "Karla"; // can access in any package
 

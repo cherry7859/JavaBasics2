@@ -5,6 +5,6 @@ public class TeacherTester {
         Teacher teacher = new Teacher();
         teacher.name = "Zombie";
         teacher.schoolName = "Harvard";
-        teacher.printInfo(); // able to access everything indirectly, because the method is public
+        teacher.printInfo(); // able to access everything indirectly(including private salary), because the method is public
     }
 }

@@ -11,10 +11,10 @@ Default:
     which means we can access this variable in any class within the package
 Protected:
     We can access the method or variable inside the other classes which are inside the same package
-    + inside the classes which are in different packages as well, but they have relationship with the original class
+    + inside the subclasses of different packages as well, but they must have relationship with the original class
 Public:
     Can use the field or method anywhere inside the same project
 
-To access the method or field from another package: import "package name".class;
-java.lang package: automatically imports some variables, like String
+To access the method or field from another package: import package name.class;
+java.lang package: automatically imports some variables with above import code, like String
 java.util package: have to import, like Scanner

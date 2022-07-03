@@ -1,43 +1,49 @@
-There are three types of variables in Java: Local, Instance, Static
+Types of Variables in Java:
+
+1)Local Variable (Method level): Created inside a block of code:
+    - Method, loop, switch statement, if else condition, constructor
+2)Instance Variable (Object/Instance level): inside the class, but outside any block of code
+    - ex: The car attributes we created
+    - Use when we want to share variable across a class. ex: dog1.color, dog2.color, dog3.color
+    - Data for one object is separate and unique from the data for another
+3)Static Variable (Class level): If an instance variable has "static" keyword used to create the variable
+    - Use when you know all the objects of a class will remain the same. ex: noOfDogLegs = 4;
+    - Use when we want to share variable across different objects/instances. ex: noOfEmployees = 500;
+
+* Always use local variables if possible
+
+Why we learn about different types of Variables:
+1) It helps us reduce the amount of RAM that our application will be using when it will be running
+2) With the help of these variables, we can pass information btwn methods of class
+3) They occupy the memory for the shortest period of time. As soon as your method is done
+    executing, they are destroyed by a special program called garbage collector
+
+    Pros vs Cons
 Local Variables:
-    The variables are created inside a block of code
-    Method level variables
-        ex: Method, loop switch statement, if else condition, constructor
-    Advantages:
-        We should always prefer local variables to instance or static variables
-        Live for shortest period of time inside your RAM (saves memory)
-    Disadvantages:
-        They can't be access outside the block of code in which they are created
-EXAMPLE:
-    Class Countries{
-        void USA() {
-           String person = "Cherylle";
-           }
-         void Russia {
-            System.out.println(person) // we will get an error b/c person is only accessible in the USA method
+    Pros:They occupy the memory for the shortest period of time, inside RAM
+         Always try to use local variables when possible to save memory.
+    Cons:Very limited scope. Cannot access outside of the block of code
+
+    EXAMPLE:
+        Class Countries{
+            void USA() {
+               String person = "Cherylle";
+               }
+             void Russia {
+                System.out.println(person) // we will get an error b/c person is only accessible in the USA method
 
 Instance Variables:
-    They are created inside the class, but outside of a block of code
-    Object/Instance level variables
-    Use when want to share variable across a class. ex: dog1.color, dog2.color, dog3.color
-    Advantages:
-        Accessible everywhere in a class in all the blocks of code that are inside the class, but not in a static method
-    Disadvantages:
-        They keep on occupying the memory for longer periods of time
-        Separate memory location created for each variable
+    Pros: Have broader scope, can access in all blocks of code of the class
+          Can be declared before or after use
+    Cons: They occupy the space in your RAM for longer periods of time
+          Separate memory location for each variable
 
 Static Variables:
-    When we have an instance variable with a static keyword
-    Class level variables
-    Use when you know all of the objects of a class will remain the same. ex: noOfDogLegs = 4;
-    Use when want to share a variable across different objects/instances. ex: NoOfEmployees = 500;
-    Advantages:
-        They have highest scope available, even outside of an object
-        B/C class level variables, does not matter how many objects we create from that class only one variable is created
-    Disadvantages:
-        Occupy the memory for longest period of time
-        Can hold only a single value for all the objects
-
+    Pros: Have highest scope, accessible across all objects
+         We can call static variables without creating an object of a class
+        B/C clas level, does not matter how many objects we create from that class only one variable is created
+    Cons: Occupy memory for the longest period of time
+           Can hold only a single value for all the objects
 
 
 

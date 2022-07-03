@@ -2,10 +2,11 @@ package com.syntax.class17;
 
 public class Employee {
     public String name;
-    private int salary;
+    private int salary; // make private b/c sensitive data
     String department;
 
     private void printSalary() {
+
         System.out.println("Salary "+salary);
     }
     void printDepartment() {

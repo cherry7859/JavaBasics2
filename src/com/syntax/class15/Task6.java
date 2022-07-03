@@ -8,7 +8,7 @@ public class Task6 {
         if (x > 1) {
 
             for (int i = 2; i < x; i++) {
-                if (x % i == 0) {  // if the number that user has provided if that number is completely divisable by any other number
+                if (x % i == 0) {  // Checks if the number user provided is completely divisible by any other number
                     isPrime = false;
                     break;
                 }

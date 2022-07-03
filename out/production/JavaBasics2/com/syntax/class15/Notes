@@ -40,33 +40,3 @@ System.out.println(a+b)
 
 add (int a, int b) = This part with the name of the method and its parameter is called signature of a method
 void add (int a, int b) => header of the method
-=================================================================================
-Types of Variables in Java:
-* Always use local variables if possible
-1)Local Variable: inside the method or a part of its parameters or a loop or switch statement
-2)Instance Variable: inside the class, but outside any block of code, like method, loop, switch statement, if else condition
-    ex: The car attributes we created
-3)Static Variable: If an instance variable has "static" keyword used to create the variable
-
-Why we learn about different types of Variables:
-1) It helps us reduce the amount of RAM that our application will be using when it will be running
-2) With the help of these variables, we can pass information btwn methods of class
-3) They occupy the memory for the shortest period of time. As soon as your method is done
-    executing, they are destroyed by a special program called garbage collector
-
-How to use these:
-    Local: create inside block of code
-
-    Pros vs Cons
-Local Variables:
-    Pros:They occupy the memory for the shortest period of time.
-         Always try to use local variables when possible to save memory.
-    Cons:Very limited scope. Cannot access outside of the block of code
-
-Instance Variables:
-    Pros: Have broader scope as compared to local variables, which means we can access in all the methods of that class
-    Cons: They occupy the space in your RAM for longer periods of time
-
-Static Variables:
-    Pros: We can call static variables without creating an object of a class
-         We can share a single value between all the objects of a class

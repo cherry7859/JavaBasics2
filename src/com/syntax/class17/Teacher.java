@@ -6,6 +6,7 @@ public class Teacher {
     public String schoolName;
 
     public void printInfo() { // b/c print info is public, we can call it in other classes
+
         System.out.println(name +" "+ salary +" "+ schoolName);
     }
 }

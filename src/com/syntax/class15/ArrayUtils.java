@@ -2,7 +2,7 @@ package com.syntax.class15;
 
 public class ArrayUtils {
 
-    void printArray(int [] arr){ //create method to use everytime have eot print arraay
+    void printArray(int [] arr){ //create method to use everytime have to print array
         for(int num:arr){
             System.out.println(num);
         }

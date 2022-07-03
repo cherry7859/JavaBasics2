@@ -4,10 +4,10 @@ public class Task3 {
     //Create a method that will print whether given String is palindrome
 
     void printIsPalindrome(String str) {
-        StringBuilder stringBuilder = new StringBuilder(str);
-        stringBuilder.reverse();
-        String reversedStr = stringBuilder.toString();
-        if (str.equals(reversedStr)) {
+        StringBuilder stringBuilder = new StringBuilder(str); // convert the String into StringBuilder
+        stringBuilder.reverse(); // Reverse the String(Builder)
+        String reversedStr = stringBuilder.toString(); // convert the reversed String(Builder) back into a String
+        if (str.equals(reversedStr)) { // Checks condition if the String is same forwards and backwards
             System.out.println("String is palindrome");
         } else {
             System.out.println("String is not palindrome");

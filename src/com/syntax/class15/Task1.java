@@ -9,7 +9,7 @@ public class Task1 {
         } else if (num2 > num1) {
             larger = num2;
         } else {
-            larger = num1;
+            larger = num1; // To cover if both numbers are equal
         }
         System.out.println(larger);
     }

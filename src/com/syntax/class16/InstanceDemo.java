@@ -10,7 +10,7 @@ public class InstanceDemo {
     String str = "instance";
 
     void changeInstanceValue(){
-        str = "method1";
+        str = "method1"; // still instance b/c was declared outside the method
     }
 
     void printInstanceValue(){

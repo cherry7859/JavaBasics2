@@ -2,7 +2,7 @@ package com.syntax.class16;
 
 public class Dog {
 
-    //static String name; // b/c static, only one memory location declared, all the dogs' names will be last created variable
+    //static String name; // if create static, only one memory location declared, so all the dogs' names would be last created variable
     String name;
     String color;
 

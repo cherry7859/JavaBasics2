@@ -21,7 +21,7 @@ public class GoogleEmployees {
         emp2.name = "Cherylle";
         emp2.salary = 2500000;
         emp1.noOfEmployees = 2; // static b/c even though variable changes, applies to all the objects/employees
-        emp1.displayEmployeeInfo(); //... so no print out, just a recall
+        emp1.displayEmployeeInfo(); //... so can't print out, just recall. But prints b/c method prints
         emp2.displayEmployeeInfo();
     }
 }
