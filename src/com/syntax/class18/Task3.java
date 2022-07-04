@@ -6,7 +6,7 @@ public class Task3 {
   Method should be available inside the class only
   where it was declared and executed by calling its name.
  */
-    String method1(String str) {
+    private String method1(String str) {
         return str.replaceAll("[^AEIOUaeiou]", "");
     }
 

@@ -2,6 +2,7 @@ package com.syntax.class17;
 
 import com.syntax.class16.Dog; // access this class from package class16
 
+import com.syntax.class18.Task2;
 public class Tester {
     public static void main(String[] args) {
 
@@ -14,6 +15,10 @@ public class Tester {
         employee.printName();
 
         Dog dog = new Dog(); // b/c imported from class 16 package, able to be used
+
+        // Class 18, Task2 Test
+    Task2 task3 = new Task2();
+        System.out.println(task3.reversedString("Cherylle"));
 
 
     }
