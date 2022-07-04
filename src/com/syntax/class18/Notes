@@ -25,7 +25,7 @@ How to Use Constructor:
         }
 
     Rules:
-        1) Constructors don't have return types, not even void(B/C they actually create the object
+        1) Constructors don't have return types, not even void; B/C they actually create the object
         2) The name of the constructor should always be same as name of the class
         3) Constructors can't be created with a static keyword
         4) We can use any access modifiers with Constructors
@@ -33,11 +33,11 @@ How to Use Constructor:
             created by compiler (Takes a code written by us, and it converts that code to byte code which is easier for Java to understand)
         6) Can have multiple constructors in one Class, but each must have different number of parameters
     This Keyword:
-        We can use the "this" keyword to access the instance variables when we have same name variables in your
-        method or constructor or any block of code
+        We can use the "this" keyword to access the current object/instance variables or methods when
+            we have same name variables in any block of code
         Ex:
-            this(): This way is not that common
-            Calls the constructors of a class inside other constructors
-            We should use it b/c it helps use reuse always written constructors if they contain same code
-            We create multiple constructors b/c we want to give end user flexibility that he can create
-                the objects of our class in many different ways
+            this(): Used with constructors; This way is not that common
+                Calls the constructors of a class inside other constructors
+        We should use it b/c it helps use reuse always written constructors if they contain same code
+        We create multiple constructors b/c we want to give end user flexibility that he can create
+            the objects of our class in many different ways

@@ -10,6 +10,6 @@ public class CarTester {
       Car car = new Car();// End user able to create object without parameters b/c default constructor in Car Class
 
         Car car3 = new Car("Tesla"); // end user creating object from the constructor asking for car model
-        car.printCarModel();
+        car3.printCarModel();
     }
 }

@@ -2,7 +2,7 @@ package com.syntax.class18;
 
 public class Car {
 
-   private String make; // private variables so one can edit the values
+   private String make; // private variables so no one can edit the values
    private String model;
    private String color;
 
@@ -16,14 +16,17 @@ public class Car {
     }
 
     public Car(String carModel){ //constructor that only requires user to input the model
-       model=carModel;
+
+       model = carModel;
     }
     void printCarModel(){
-        System.out.println("Model "+model);
+
+       System.out.println("Model: "+model);
     }
 
     void printInfo(){
-        System.out.println("Make "+make+" Model "+model+" Color "+color);
+
+       System.out.println("Make: "+make+", Model: "+model+", Color: "+color);
     }
 
 }
