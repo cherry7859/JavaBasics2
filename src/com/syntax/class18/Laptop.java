@@ -15,7 +15,7 @@ public class Laptop {
     }
 
     public Laptop(String make, String model){
-       /* this.make = make;*/
+       // this.make = make;
         this(make);
         this.model = model;
     }
