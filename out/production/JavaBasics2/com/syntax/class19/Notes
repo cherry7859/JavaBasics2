@@ -1,5 +1,5 @@
 Constructor:
-    A block of code that is used to construct objects
+    A block of code that is used to create/construct objects
 Why we should use Constructors:
     Help us initialize objects in cleaner and more readable way
     They are better than methods b/c they are called automatically when we create an object
@@ -28,6 +28,7 @@ Rules:
     void printName(){
     String name = "wake up Zombi";
 
-    System.out.println(this.name);
+    System.out.println(this.name); //Prints the instance variable
     }
     }
+=================================================================================

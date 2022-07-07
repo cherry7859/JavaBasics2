@@ -6,12 +6,12 @@ public class Task3 {
   Method should be available inside the class only
   where it was declared and executed by calling its name.
  */
-    private String method1(String str) {
+    private static String method1(String str) { //Static b/c main method is static and have to be same to call name without creating object
+
         return str.replaceAll("[^AEIOUaeiou]", "");
     }
 
     public static void main(String[] args) {
-        Task3 task = new Task3();
-        System.out.println(task.method1("Hello. How are you?"));
+        System.out.println(method1("Hello. How are you?"));
     }
 }

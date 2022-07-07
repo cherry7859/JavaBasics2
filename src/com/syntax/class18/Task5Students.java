@@ -15,8 +15,8 @@ public class Task5Students {
     int grade2;
     int grade3;
 
-    Task5Students(String stuName, int stuGrade1, int stuGrade2, int stuGrade3) {
-        name = stuName;
+    Task5Students(String name, int stuGrade1, int stuGrade2, int stuGrade3) {
+        this.name = name; // using this b/c have same name variable inside the constructor
         grade1 = stuGrade1;
         grade2 = stuGrade2;
         grade3 = stuGrade3;

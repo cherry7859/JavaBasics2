@@ -1,5 +1,5 @@
 Constructor:
-    A block of code that is used to construct objects
+    A block of code that is used to create/construct objects
 Why we should use Constructors:
     Help us initialize objects in cleaner and more readable way
     They are better than methods b/c they are called automatically when we create an object
@@ -28,6 +28,26 @@ Rules:
     void printName(){
     String name = "wake up Zombi";
 
-    System.out.println(this.name);
+    System.out.println(this.name); //Prints the instance variable
     }
     }
+=================================================================================
+What is Inheritance:
+    A mechanism in java through which we can get the properties and methods
+    from the Parent class inside the Child class.
+Why we should use Inheritance:
+    Helps us reduce the amount of code that we have to write if there are
+    some properties and methods which are present in many classes.
+How to use Inheritance:
+    1) Create a Parent class
+    2) Put all the common methods and properties from Children classes inside that Parent class
+    3) Use extends keyword to inherit from that Parent class
+Types of Inheritance:
+    1) Single
+    2) Multilevel
+    3) Hierarchical
+
+Rules:
+    1) Private fields and private methods can't be inherited inside the Children classes
+    2) Constructors are also not inherited
+    3) There should be a logical relationship(IS-A) btwn Parent and Child classes
