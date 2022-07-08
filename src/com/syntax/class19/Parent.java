@@ -1,5 +1,5 @@
 package com.syntax.class19;
-
+//Single Inheritance Example
 public class Parent {
     String name = "Misha";
     double money = 1000000;
