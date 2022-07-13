@@ -23,5 +23,12 @@ Types of Inheritance:
     1) Single - single parent, single child
     2) Multilevel - one parent, one child, multiple intermediate(down the chain)
     3) Hierarchical - one parent, multiple children
+        - All 3 mentioned above are supported by both classes and interfaces
     4) Multiple - multiple parent, one child (not used in java for classes)
     5) Hybrid
+
+What's not Possible in Inheritance:
+    1) Private members of the superclass are not inherited by the subclass and can only be indirectly accessed
+    2) Members that have default accessibility in the superclass can only be accessed within the same package
+    3) Since constructors and initializer blocks are not members of a class, they are not inherited by a subclass
+    4) A subclass can only extend one superclass

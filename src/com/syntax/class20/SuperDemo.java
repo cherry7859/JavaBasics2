@@ -6,8 +6,10 @@ public class SuperDemo {
         chair.printColor();
     }
 }
-
-class Furniture{
+class Wood{
+    String color = "blue"; // It is not possible to access this variable from Chair class
+}
+class Furniture extends Wood{
 
     String color = "black";
 }
