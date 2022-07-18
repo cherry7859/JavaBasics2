@@ -1,0 +1,29 @@
+Method Overloading:
+    When same name method exists in a class but with:
+        1) different number of parameters OR
+        2) different datatype of parameters OR
+        3) different sequence of parameters
+Why we should use Method Overloading:
+    1) Makes your code more readable
+    2) Flexibility for end user, so they don't have to memorize many method names
+Rules:
+    1) We can't overload a method just by changing it return type or modifiers
+    2) We can also overload constructors by following the same rules
+=====================================================================================
+Method Overriding:
+    When same method header exists inside the parent class and the child class
+    Child class method overrides the parent class method
+Why we should Method Override:
+    1) If we are inheriting from a Parent class and we don't like the implementation of the method from the parent class
+    2) Sometimes done to improve the performance of code
+How to Override a Method:
+    When we inherit from a class, re-write that exact method inside the child class
+     - All should be the same except the body and access modifiers
+Rules:
+    1) for Override we must inherit from a class
+    2) Access modifiers in the parent class can only be increased, with respect to the visibility, once inherited in the child class
+        Ex: default --> public, NOT public --> default
+    4) If something is not inherited, we can't override it
+        Ex: private methods and constructors
+    5) If a method is static we use different terminology, called method redeclaration (instead of overriding)
+        - b/c static belongs to class and isn't an instance method

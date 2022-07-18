@@ -14,12 +14,3 @@ Rules:
     3) If we have a user created constructor in the parent class, we must have a matching parameter
         constructor in the subclass ( for at least one of the user created constructors)
     4) super() should be the first line inside a constructor
-================================================================================================================
-Method Overloading:
-    When same name method exists in a class but with:
-        1) different number of parameters OR
-        2) different datatype of parameters OR
-        3) different sequence of parameters
-Why we should use Method Overloading:
-    1) Makes your code more readable
-    2) Makes the life of the end users easy, so they don't have to memorize many method names
