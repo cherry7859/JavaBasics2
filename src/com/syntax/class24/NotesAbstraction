@@ -1,0 +1,12 @@
+Abstraction:
+    - Providing only the necessary details and hiding all implementation details
+    - Abstract Variables and Methods that can be used to create other classes
+Why Abstraction:
+    - Reduces the complexity by separating the idea from implementation
+    - Helps user enforce rules and convey our requirements
+How to use Abstraction:
+    1) Create classes with abstract keyword
+    2) Use the abstract keyword with method header and don't provide the body of method
+    3) Create the child classes and extend from the parent class and implement the abstract methods
+    4) If we don't want to provide the implementation of one or more methods,
+        we can declare the child class as abstract as well
