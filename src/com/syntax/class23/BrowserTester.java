@@ -18,5 +18,8 @@ public class BrowserTester {
             driver.closeBrowser();
 
         }
+
+        WebDriver v = new Chrome();
+        Chrome chrome2 = (Chrome) v; // Creating a Chrome object through WebDriver parent class
     }
 }

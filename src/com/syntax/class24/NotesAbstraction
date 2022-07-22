@@ -10,3 +10,12 @@ How to use Abstraction:
     3) Create the child classes and extend from the parent class and implement the abstract methods
     4) If we don't want to provide the implementation of one or more methods,
         we can declare the child class as abstract as well
+Rules:
+    1) You can't create an object of abstract class
+    2) Abstract class can have defined and undefined/abstract methods
+    3) To utilize abstract class, must inherit the class and methods.. then can provide implementation of method
+    4) An object of abstract class cannot be created directly, but can be indirectly in derived class
+        Ex: Vehicle obj = new Bike(); // indirect object creation
+Important Points:
+    1) Use abstract classes when we know the methods, but don't know how they would be implemented
+    2) Abstract classes definitions should not be made as final because abstract classes always participate in inheritance classes
