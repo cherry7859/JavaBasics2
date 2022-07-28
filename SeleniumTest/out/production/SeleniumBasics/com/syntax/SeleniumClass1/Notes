@@ -1,0 +1,40 @@
+What is Software Testing?
+- Identify the correctness and quality of the application
+
+How many ways can we actually test?
+- Manual
+- Automation
+
+When do we go for Automation Testing?
+- After manual testing is passed
+- When environment is stable (Testing environment)
+- Analyze test suite and choose automation tools
+
+What Automation tools do we know about?
+- Selenium, Cucumber, TestNG, JUnit, Katalon Studio, UFT/QTP
+
+Level of Testing:
+- Unit testing (Developers)
+- Integration testing (QA/Testers)
+- Acceptance testing (Clients/Users)
+- System testing (Developers)
+
+Types of Testing:
+- Functional testing: Functionality of website (QA main role)
+- Non-Functional testing
+    - Performance: Performance of application under severe load/ user capacity (Performance Tester)
+    - Security: Make sure can't be hacked (CyberSecurity team)
+
+What is Selenium?
+- Set of tools which help us to automate web applications
+- Mainly used to perform functional testing
+
+Selenium Components:
+- Selenium IDE: integrated development environment
+- Selenium Grid: Firefox extension/plugin
+- Selenium WebDriver
+- Selenium RC: Use for Remote Server
+
+What is Selenium WebDriver?
+- Open source automation tool which allows us to perform actions on web applications
+- Is an Interface
