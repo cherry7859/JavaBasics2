@@ -1,0 +1,18 @@
+Variables:
+    - Basic unit to store data
+    - It's easy to access the value by variable name, don't have to deal with indexes
+Problems with variables:
+    - They can only store one value at a time
+    - If have to store more than one value, have to declare more variables
+
+Arrays:
+    - Can hold multiple values in a single variable, then use indexes to access those values
+Benefits of Arrays:
+    - Fastest data structure when processing the data
+    - Occupy 4 times less memory than an ArrayList
+Problems with Arrays:
+    - Fixed in size; once created, can't modify its size
+    - No built-in methods in arrays like: add, remove, findIndex etc.
+
+ArrayList:
+    -

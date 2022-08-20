@@ -1,0 +1,19 @@
+Interfaces:
+    - A collection of public, static, final variables (constants) and public abstract methods
+Why learn about Interfaces:
+    - specifically designed to achieve full abstraction and multiple inheritance
+    - Cannot be extended by a class; it is implemented by a class
+    - Can extend multiple interfaces
+    - A class describes the attributes and behaviors of an object
+        - But an interface contains behaviors that a class implements
+Rules:
+    - Use when we don't know any things about implementation and just have requirements
+        - Use Abstract Class when classes are logically connected (inheritance) and we have instance fields and
+            implemented methods while doing abstraction
+    - A class can implement more than one interface at a time
+    - Before Java 8, only abstract methods allowed in interface. Now can have default and static methods
+    - No instance fields, means no constructor is required
+    - Variables in interfaces can't be private, protected or default
+How to use Interfaces:
+    - Use interface keyword
+    - Create abstract methods

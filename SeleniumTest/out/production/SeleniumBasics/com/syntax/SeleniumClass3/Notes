@@ -1,0 +1,47 @@
+Why do we need Xpath and CSS Selector?
+    - Developers may not provide all the locators in html
+    - By using Xpath and CSS we can identify elements with any given attributes
+
+What is an Xpath?
+    - like a query language which helps us to identify elements uniquely on the webpage
+
+Types of Xpath:
+    - Absolute Xpath --> starts from the starting node of the html
+                       - It always starts with single slash (/)
+            - cmd+f to locate the Xpath in DOM
+                - ex: /html/body/div/div/div
+
+    - Relative Xpath --> starts from any node in html
+                       - It always starts with double slash (//)
+           - Syntax: //tagName[@attribute = 'attribute value']
+                - ex: //input[@id = 'email']
+
+        - Identifying elements by its text:
+            //tagName[text() = 'text value']
+                - ex: //a[text() = 'Create new account']
+
+        - Identifying elements by using contains method:
+            //tagName[contains(@attribute, 'partial attribute value')]
+              - ex: //input[contains(@placeholder, 'Email')]
+             - ex: //h2[contains(text(), 'the world')]
+
+        - Identifying elements by using starts-with method:
+            //tagName[starts-with(@attribute, 'partial starting attribute value')]
+             - ex: //input[starts-with(@aria-label, 'Email')]
+
+    - Advanced Xpath --> based on parent, child, and sibling relationships
+        - Use a preceding sibling to identify following element
+            //tagName[@attribute = 'attribute value']/following-sibling::siblingTagName
+                -ex: //input[@id = 'calFromDate']/following-sibling::img
+        - Use a following sibling to identify preceding element
+            - ex: //span[text() = '& Orders']/preceding-sibling::span
+        - Use a child to identify parent element
+            - ex: //span[text() = '& Orders']/parent::a
+        - Identify ancestor element
+            - ex: //input[@id = 'email']/ancestor::form
+                - Will locate the highest ancestor with ancestorTagName
+        - Use index to identify element:
+            - ex: (//img[@class = 'ui-datepicker-trigger'])[2]
+                - Use the index on the end to select which identical element
+
+

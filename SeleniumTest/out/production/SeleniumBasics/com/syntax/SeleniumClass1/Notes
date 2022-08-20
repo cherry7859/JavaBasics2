@@ -38,3 +38,29 @@ Selenium Components:
 What is Selenium WebDriver?
 - Open source automation tool which allows us to perform actions on web applications
 - Is an Interface
+
+Advantages of Selenium WebDriver:
+- Open Source
+- Works with different browsers and supports cross browsing testing
+- Operating System independent (iOS, Windows, Linux)
+- Works with different programming languages (java, javascript, ruby, python)
+
+Disadvantages of Selenium WebDriver:
+- Cannot test desktop applications
+- No technical support
+- No built in reports
+- Cannot test images, videos and captchas
+
+get() vs navigate():
+- navigate() can go back, forward and refresh
+- get() will wait for the page to fully load, navigate() won't
+- get() will not keep the history of the browser, navigate() will
+
+close() vs quit():
+- close() closes the current tab
+- quit() quits the whole browser
+
+fullscreen() vs maximize():
+- maximize() will maximise the browser and you can still see the control panel (back, forward, url box, bookmarks)
+- fullscreen() will maximize the whole webpage, can't see any control panel commands
+
