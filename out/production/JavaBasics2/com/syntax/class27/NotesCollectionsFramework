@@ -1,0 +1,26 @@
+Collections Framework:
+    - A collection of interfaces and classes that have pre-built methods to store and manipulate real life day to day data
+    - the classes are stored inside the interfaces
+    - all the methods are accessible across the entire collections framework
+Why we should learn:
+    - The methods are battle tested (very well tested and reliable)
+    - Reduces time and bugs
+How to use:
+    - They are same classes just like any other class in Java. We create the object of the class
+        and start calling the methods we need to take care of the diamond operator.
+    - Put the name of the class inside the diamond operator <> who's objects we will be storing inside
+        ex: for Strings and ArrayList: ArrayList<String> objName = new ArrayList<>();
+Wrapper Classes:
+    - special classes built to work with collections framework which are replica of primitive data types
+        but they are classes. So we can use them just like any other classes, can have methods
+Boxing and Unboxing in wrapper classes:
+    - Boxing: Converting a primitive data type like int to a non-primitive wrapper class like Integer
+        - Autoboxing (When it is converted automatically)
+    - Unboxing and Auto-Unboxing is the reverse
+Disadvantages of collections framework:
+    - Need to use the wrapper classes with collections framework
+        - wrapper class allows us to convert from primitive to non-primitive
+            - the non-primitives occupy 4 times more memory, as compared to primitives (takes more time too)
+
+
+

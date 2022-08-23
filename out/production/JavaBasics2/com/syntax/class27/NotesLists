@@ -1,0 +1,6 @@
+List:
+    - The first interface we are discussing from the collections framework
+    - We can store duplicate data
+    - Insertion order is maintained
+ArrayList:
+linkedListClass:
