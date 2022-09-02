@@ -3,4 +3,14 @@ List:
     - We can store duplicate data
     - Insertion order is maintained
 ArrayList:
+    - don't have to provide size during initialization, but it will move faster if you do
 linkedListClass:
+    - Joining in a minute
+Difference btwn ArrayList and LinkedList
+    - ArrayList (More reading, less writing):
+        - Retrieval(get operation) of elements is super fast
+            - b/c all data store in single line(consecutive data)
+        - Manipulating(adding and deleting) elements is expensive
+    - LinkedList (More writing, less reading):
+        - beneficial when have to insert data randomly, not at last index
+        - Retrieval is super slow if the list is big

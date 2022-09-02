@@ -1,0 +1,40 @@
+What is a List:
+    - an interface inside the collections framework, which have below properties
+    1) Insertion order is maintained
+    2) Can store duplicate data
+List is implemented by many classes, but we're focusing on ArrayList and LinkedList:
+    1) ArrayList: Use when required to read the data a lot (Accessing phone contacts)
+    2) LinkedList: Most of our operations will be writing fata in btwn or beginning of list (Adding phone contacts)
+Iterator:
+    - an interface that has three methods hasNext() next() and remove().
+    - when we try to modify the size of a list using wimple loop, it can cause error
+
+Set:
+    - interface inside collections framework
+    - Duplicates are not allowed
+    - no "get" method b/c not index based data structure
+    - 3 Types:
+        1) HashSet
+            - No insertion order is maintained
+            - retrieval fastest of all
+        2) LinkedHashSet
+            - insertion order is maintained
+            - retrieval of elements will be super slow
+            - insertion speed slower than Hashset
+        3)TreeSet
+            - elements will always be in sorted form
+            - insertion speed is slowest of all
+            - retrieval better than LinkedList but slower than Hashset
+Map:
+    - Interface in java that allows us to store key value pairs
+    - we cannot have duplicate keys, but can have duplicate values
+    - 3 types we are discussing:
+        1) HashMap
+            - Fastest for insertion and retrieval of elements
+            - No insertion order
+        2)LinkedHashMap
+            - Insertion order maintained
+            - Retrieval is slowest
+        3)TreeMap
+            - Data will be stored in the sorted form based on key values
+            - Insertion is slowest
